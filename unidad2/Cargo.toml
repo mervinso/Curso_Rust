@@ -1,0 +1,10 @@
+[package]
+name = "curso-rust-ejercicios"
+version = "0.1.0"
+edition = "2024"
+authors = ["Diego Cortes <dfer.cortes@gmail.com>"]
+description = "Este proyecto contiene ejercicios practicos que hacen parte del curso de programación en Rust"
+repository = "https://github.com/batouxclass/curso-rust-ejercicios"
+license = "MIT"
+
+[dependencies]
