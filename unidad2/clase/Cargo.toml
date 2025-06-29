@@ -1,0 +1,10 @@
+[package]
+name = "clase"
+version = "0.1.0"
+edition = "2024"
+authors = ["Diego Cortes <dfer.cortes@gmail.com>"]
+description = "Este proyecto contiene los ejemplos para la unidad 2-"
+repository = "https://github.com/batouxclass/curso-rust-ejercicios"
+license = "MIT"
+
+[dependencies]
