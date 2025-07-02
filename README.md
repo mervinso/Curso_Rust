@@ -1,4 +1,4 @@
-# 🦀 Repositorio de Ejercicios - Diplomado Rust
+# 🦀 Diplomado Rust - Repositorio de Ejercicios
 
 [![Sincronizado con batouxclass/curso-rust-ejercicios](https://img.shields.io/badge/Sincronizado-con%20batouxclass%2Fcurso--rust--ejercicios-brightgreen)](https://github.com/batouxclass/curso-rust-ejercicios)
 
