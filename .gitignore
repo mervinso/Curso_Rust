@@ -1,7 +1,22 @@
-.idea/curso-rust-ejercicios.iml
-.idea/modules.xml
-.idea/vcs.xml
-/unidad2/clase/target
-unidad2/clase/.idea/modules.xml
-unidad2/clase/.idea/vcs.xml
-unidad2/clase/.idea/clase.iml
+# =============================================
+# RustRover/IntelliJ IDEA
+# =============================================
+**/.idea/
+**/*.iml
+*.iml
+
+# =============================================
+# Rust/Cargo
+# =============================================
+# Directorios de compilación
+**/target/
+target/
+
+# Archivo de bloqueo de dependencias
+Cargo.lock
+
+# =============================================
+# Otros IDEs (opcional)
+# =============================================
+.vscode/
+*.code-workspace
