@@ -24,7 +24,7 @@ Curso_Rust/
 ### Unidad 2: Conceptos de Rust
 | Ejercicio | Estado | Fecha | Rama |
 |-----------|--------|-------|------|
-| [1_test_primitive_types] | ✅ Completado | 2024-07-15 | [solucion/tests](https://github.com/tuusuario/curso-rust-ejercicios/tree/solucion/tests) |
+| [1_test_primitive_types] | ✅ Completado | 2024-07-15 | [solucion/tests](https://github.com/mervinso/curso-rust-ejercicios/tree/solucion/tests) |
 | [2_test_conversion_primitivos] | 🚧 En progreso | - | - |
 
 ## 🔄 Cómo Sincronizar con el Repositorio del Profesor
@@ -40,15 +40,18 @@ git push origin main
 ```
 
 ## 🛠️ Cómo Ejecutar los Ejercicios
+
+```bash
 # Ejecutar test específico
 cargo test --test 1_test_primitive_types
 
 # Ejecutar todos los tests
 cargo test
+```
 
-📚 Recursos
-Libro Oficial de Rust
-https://doc.rust-lang.org/book/
+## 📚 Recursos
+
+![Libro Oficial de Rust](https://doc.rust-lang.org/book/)
 
 Rust by Ejemplo
 https://doc.rust-lang.org/rust-by-example/
@@ -59,10 +62,10 @@ https://crates.io/
 "El código es poesía lógica." - Mi evolución en Rust 🚀
 
 ## 👨‍💻 Autor
-[Tú Nombre](https://github.com/tuusuario)
+[Mervin Sosa](https://github.com/mervinso)
 
 ![Rust Version](https://img.shields.io/badge/rust-1.72.0+-orange)
-![Última Sincronización](https://img.shields.io/github/last-commit/tuusuario/curso-rust-ejercicios/main)
+![Última Sincronización](https://img.shields.io/github/last-commit/mervinso/curso-rust-ejercicios/main)
 
 ## 🖼️ Evidencias
 
