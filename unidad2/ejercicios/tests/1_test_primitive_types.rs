@@ -8,12 +8,14 @@ mod tests {
         let is_sunny: bool = true;
 
         // 2. Declara una variable llamada 'is_weekend' y asígnale el valor 'false'.
-
+        let is_weekend = false;
 
         // 3. Escribe una aserción que verifique que 'is_sunny' es verdadero.
         assert!(is_sunny, "Se esperaba que 'is_sunny' fuera verdadero.");
 
+
         // 4. Escribe una aserción que verifique que 'is_weekend' es falso.
+        assert!(!is_weekend, "se esperaba que 'is_weekend' fuera falso.");
 
     }
 
@@ -28,21 +30,26 @@ mod tests {
         assert!(initial.is_alphabetic(), "'initial' debería ser un carácter alfabético.");
 
         // 3. Declara una variable 'digit' con un carácter numérico (ej: '7').
+        let digit = '7';
 
 
         // 4. Asegúrate de que 'digit' sea un carácter numérico.
+        assert!(digit.is_numeric(), "'digit' debería ser numérico.");
 
 
         // 5. Declara una variable 'symbol' con un carácter especial (ej: '$').
+        let symbol = '$';
 
 
         // 6. Asegúrate de que 'symbol' no sea ni alfabético ni numérico.
+        assert!(!symbol.is_alphabetic() && !symbol.is_numeric(), "'symbol' no debería ser alfanumérico.");
 
 
         // 7. Declara una variable 'emoji' con un emoji (ej: '🦀').
         let emoji = '🦀';
 
         // 8. Asegúrate de que 'emoji' no sea alfabético ni numérico (generalmente).
+        assert!(!emoji.is_alphabetic() && !emoji.is_numeric(), "'emoji' no debería ser alfanumérico.");
 
 
         // 9. Declara una variable 'unicode_char' con un carácter Unicode (ej: 'あ').
@@ -59,17 +66,23 @@ mod tests {
         assert_eq!(temperature, -10);
 
         // 2. Declara una variable 'small_number' de tipo i8 con el valor -5.
+        let small_number: i8 = -5;
 
 
         // 3. Declara una variable 'big_number' de tipo i64 con un valor grande (ej: 1_000_000_000).
         // Nota: Los guiones bajos `_` se pueden usar para mejorar la legibilidad de números grandes.
+        let big_number: i64 = 1_000_000_000;
+        assert_eq!(big_number, 1_000_000_000);
 
 
         // 4. Suma 'temperature' y 'small_number' (convertido a i32) y almacénalo en 'result'.
+        let result = temperature + small_number as i32;
+        assert_eq!(result, -15);
 
 
         // 5. Investiga y verifica cuál es el valor mínimo que puede tener un i8.
         // Pista: Usa la constante `MIN` asociada al tipo i8::MIN.
+        assert_eq!(i8::MIN, -128);
 
     }
 
@@ -79,16 +92,22 @@ mod tests {
 
         // 1. Declara una variable 'age' de tipo u32 con tu edad.
         let age: u32 = 30; // ¡Cambia este valor a tu edad!
-        assert!(age >= 0, "La edad no puede ser negativa.");
+        assert_eq!(age, 30);
 
         // 2. Declara una variable 'max_u8' de tipo u8 con su valor máximo posible.
         // Pista: Usa la constante `MAX` asociada al tipo. u8::MAX
+        let max_u8 = u8::MAX;
+        assert_eq!(max_u8, 255);
 
 
         // 3. Declara una variable 'items_count' de tipo u64 con un valor de 150.
+        let items_count: u64 = 150;
+        assert_eq!(items_count, 150);
 
 
         // 4. Resta 50 de 'items_count' y almacénalo en 'remaining_items'.
+        let remaining_items = items_count - 50;
+        assert_eq!(remaining_items, 100);
 
 
         // 5. ¿Qué pasa si intentas restar un número mayor de 'items_count', como 200?
@@ -104,18 +123,33 @@ mod tests {
         let pi: f64 = 3.14159;
 
         // 2. Declara una variable 'radius' de tipo f32 con el valor 5.5.
+        let radius: f32 = 5.5;
 
 
         // 3. Calcula el área del círculo (pi * radio^2) y almacénala en 'area'.
         // Nota: Necesitarás convertir 'radius' a f64 para que coincida con 'pi'.
+        let area = pi * (radius as f64).powi(2);
 
 
         // 4. Los números de punto flotante rara vez son exactos. Para compararlos,
         // es mejor verificar si están "cerca" uno del otro.
         // Pista: assert!((area - expected_area).abs() < 0.0001, "El área calculada no es la esperada.");
+        let expected_area = 3.14159 * (5.5f64 * 5.5);
+        assert!(
+            (area - expected_area).abs() < 0.0001,
+            "El área calculada no es la esperada. Esperado: {}, Actual: {}",
+            expected_area,
+            area
+        );
 
 
         // 5. Realiza una división de flotantes. Divide 10.0 por 3.0.
+        let division = 10.0f64 / 3.0f64;  // Especificación explícita de tipo
+        assert!(
+            (division - 3.3333333333333335).abs() < 0.000001,
+            "Resultado inesperado: {}",
+            division
+        );
 
         // Verifica que el resultado es aproximadamente 3.333...
 
