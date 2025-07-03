@@ -11,16 +11,13 @@ Este repositorio contiene mis soluciones a los ejercicios del diplomado de Rust,
 ## 🗂️ Estructura del Repositorio
 ```
 Curso_Rust/
-├── unidad1-introduccion/ # Material unidad 1
-├── unidad2-conceptos/ # Material unidad 2 (Conceptos de Rust)
-│ ├── clase/ # Ejemplos de clase
-│ ├── ejercicios/ # Ejercicios prácticos
-│ └── src/ # Código base
-├── tests/ # Pruebas unitarias
-└── soluciones/ # Mis soluciones
-└── tests/
-├── 1_test_primitive_types.rs
-└── ... # Otras soluciones
+├── unidad1/        # Material unidad 1
+├── unidad2/        # Material unidad 2
+│ ├── clase/        # Ejemplos de clase
+│ └── ejercicios/   # Ejercicios prácticos
+│   └── tests/      # Pruebas unitarias de ejercicios
+├── unidad3/        # Próximas unidades
+└── recursos/       # imagenes, PDFs, libros, materiales
 ```
 
 ## 📊 Mi Progreso
@@ -56,11 +53,11 @@ cargo test
 ## 📚 Recursos
 
 - Rust Book: [Libro Oficial de Rust](https://google.github.io/comprehensive-rust/es/index.html)
-- Aprendiendo Rust: [Enlace](https://learning-rust.github.io/docs/overview/)
-- Crates.io: [egistro de Paquetes](https://crates.io/)
+- Rust aprendizaje: [Rust Learning](https://learning-rust.github.io/docs/overview/)
+- Crates.io: [Registro de Paquetes](https://crates.io/)
 
 ## 👨‍💻 Autor
-Mervin Sosa [Mervin Sosa](https://github.com/mervinso)
+Mervin Sosa [GitHub](https://github.com/mervinso)
 
 
 ## 🖼️ Evidencias
