@@ -52,6 +52,7 @@ cargo test
 ## 📚 Recursos
 
 ![Libro Oficial de Rust](https://doc.rust-lang.org/book/)
+- Codalab: [CLibro Oficial de Rust](https://doc.rust-lang.org/book/)
 
 Rust by Ejemplo
 https://doc.rust-lang.org/rust-by-example/
@@ -66,6 +67,7 @@ https://crates.io/
 
 ![Rust Version](https://img.shields.io/badge/rust-1.72.0+-orange)
 ![Última Sincronización](https://img.shields.io/github/last-commit/mervinso/curso-rust-ejercicios/main)
+
 
 ## 🖼️ Evidencias
 
