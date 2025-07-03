@@ -1,8 +1,12 @@
 # 🦀 Diplomado Rust - Repositorio de Ejercicios
 
 [![Sincronizado con batouxclass/curso-rust-ejercicios](https://img.shields.io/badge/Sincronizado-con%20batouxclass%2Fcurso--rust--ejercicios-brightgreen)](https://github.com/batouxclass/curso-rust-ejercicios)
+![Rust Version](https://img.shields.io/badge/rust-1.72.0+-orange)
+![Última Sincronización](https://img.shields.io/github/last-commit/mervinso/curso-rust-ejercicios/main)
 
 Este repositorio contiene mis soluciones a los ejercicios del diplomado de Rust, basado en el material del profesor [Orlando Contreras Castellanos](https://github.com/batouxclass).
+
+---
 
 ## 🗂️ Estructura del Repositorio
 ```
@@ -43,7 +47,7 @@ git push origin main
 
 ```bash
 # Ejecutar test específico
-cargo test --test 1_test_primitive_types
+cargo test --test <nombre del test>
 
 # Ejecutar todos los tests
 cargo test
@@ -51,22 +55,12 @@ cargo test
 
 ## 📚 Recursos
 
-![Libro Oficial de Rust](https://doc.rust-lang.org/book/)
-- Codalab: [CLibro Oficial de Rust](https://doc.rust-lang.org/book/)
-
-Rust by Ejemplo
-https://doc.rust-lang.org/rust-by-example/
-
-Crates.io - Registro de Paquetes
-https://crates.io/
-
-"El código es poesía lógica." - Mi evolución en Rust 🚀
+- Rust Book: [Libro Oficial de Rust](https://google.github.io/comprehensive-rust/es/index.html)
+- Aprendiendo Rust: [Enlace](https://learning-rust.github.io/docs/overview/)
+- Crates.io: [egistro de Paquetes](https://crates.io/)
 
 ## 👨‍💻 Autor
-[Mervin Sosa](https://github.com/mervinso)
-
-![Rust Version](https://img.shields.io/badge/rust-1.72.0+-orange)
-![Última Sincronización](https://img.shields.io/github/last-commit/mervinso/curso-rust-ejercicios/main)
+Mervin Sosa [Mervin Sosa](https://github.com/mervinso)
 
 
 ## 🖼️ Evidencias
