@@ -1,4 +1,5 @@
-# 🦀 Diplomado Rust - Mi Viaje de Aprendizaje y Soluciones
+# 🦀 Diplomado Rust - 
+*Mi Viaje de Aprendizaje y Soluciones*
 
 ![Rust Version](https://img.shields.io/badge/rust-1.72.0%2B-orange)
 ![Última Actualización](https://img.shields.io/github/last-commit/mervinso/curso-rust-ejercicios/main)
@@ -130,7 +131,7 @@ git push origin main
 
 **Mervin Sosa**
 *   GitHub: [mervinso](https://github.com/mervinso)
-*   <!-- (Opcional: LinkedIn, Twitter, etc.) -->
+<!-- *   (Opcional: LinkedIn, Twitter, etc.) -->
 
 ## 📄 Licencia
 
