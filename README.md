@@ -51,11 +51,11 @@ A continuación, se detalla el progreso de los ejercicios por unidad.
 | Ejercicio                                 | Estado         | Fecha de Finalización | Solución / Evidencia                                                      |
 | ----------------------------------------- | -------------- | --------------------- | ------------------------------------------------------------------------- |
 | `1_test_primitive_types`                  | ✅ Completado  | 2024-07-15            | [Ver tests](unidad2/ejercicios/tests/1_test_primitive_types.rs)           |
-| `2_test_conversion_primitivos`            | 🚧 En Progreso | ---                   | [Ver tests](unidad2/ejercicios/tests/2_test_conversion_primitivos.rs)     |
-| `3_test_tipos_compuestos_tuplas`          | ⏳ Pendiente   | ---                   | [Ver tests](unidad2/ejercicios/tests/3_test_tipos_compuestos_tuplas.rs)   |
+| `2_test_conversion_primitivos`            | ✅ Completado | 2024-07-16             | [Ver tests](unidad2/ejercicios/tests/2_test_conversion_primitivos.rs)     |
+| `3_test_tipos_compuestos_tuplas`          | 🚧 En Progreso | ---                   | [Ver tests](unidad2/ejercicios/tests/3_test_tipos_compuestos_tuplas.rs)   |
 | `4_test_tipos_compuestos_array`           | ⏳ Pendiente   | ---                   | [Ver tests](unidad2/ejercicios/tests/4_test_tipos_compuestos_array.rs)    |
 | `5_test_control_flujo_if`                 | ⏳ Pendiente   | ---                   | [Ver tests](unidad2/ejercicios/tests/5_test_control_flujo_if.rs)        |
-| `6_test_control_flujo_for_while_loop`   | ⏳ Pendiente   | ---                   | [Ver tests](unidad2/ejercicios/tests/6_test_control_flujo_for_while_loop.rs)|
+| `6_test_control_flujo_for_while_loop`     | ⏳ Pendiente   | ---                   | [Ver tests](unidad2/ejercicios/tests/6_test_control_flujo_for_while_loop.rs)|
 | `7_test_control_flujo_match`              | ⏳ Pendiente   | ---                   | [Ver tests](unidad2/ejercicios/tests/7_test_control_flujo_match.rs)     |
 | `8_test_control_string_str_slice`         | ⏳ Pendiente   | ---                   | [Ver tests](unidad2/ejercicios/tests/8_test_control_string_str_slice.rs)|
 
