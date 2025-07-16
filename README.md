@@ -113,6 +113,24 @@ git push origin main
 ```
 *Nota: Si realizas cambios locales en archivos que también fueron modificados en el `upstream`, podrías necesitar resolver conflictos de fusión.*
 
+## 🛡️ Resolución de Conflictos al Sincronizar
+
+Si al fusionar los cambios del repositorio base (`main`) en tu rama de trabajo aparece un conflicto (ejemplo: `.gitignore`), sigue estos pasos:
+
+1. Abre el archivo marcado como conflictivo y resuelve las diferencias manualmente.
+2. Elimina las marcas de conflicto (`<<<<<<<`, `=======`, `>>>>>>>`) y guarda el archivo.
+3. Agrega el archivo resuelto:
+    ```bash
+    git add <archivo>
+    ```
+4. Finaliza el merge:
+    ```bash
+    git commit
+    ```
+5. Continúa trabajando en tu rama y sube tus cambios normalmente.
+
+Esto asegura que mantienes tu progreso y los cambios del curso actualizados.
+
 ## 📚 Recursos Adicionales Útiles
 
 *   **Documentación Oficial de Rust:**
